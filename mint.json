@@ -29,18 +29,6 @@
       }
     ],
     "navigation": [
-      {
-        "group": "Getting Started",
-        "pages": ["introduction", "quickstart"]
-      },
-      {
-        "group": "API Components",
-        "pages": ["api-playground/overview", "api-playground/configuration"]
-      },
-      {
-        "group": "Settings",
-        "pages": ["settings/global", "settings/page"]
-      }
     ],
     "footerSocials": {
       "github": "https://github.com/HiWay-Media"

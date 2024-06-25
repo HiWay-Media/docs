@@ -21,6 +21,9 @@ jobs:
       - name: Install dependencies
         run: npm install -g mintlify
 
+      - name: Mintlify install
+        run: mintlify install  # Adjust this command based on how Mintlify builds your site
+
       - name: Build the site
         run: mintlify build  # Adjust this command based on how Mintlify builds your site
 

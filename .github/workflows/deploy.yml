@@ -21,11 +21,8 @@ jobs:
       - name: Install dependencies
         run: npm install -g mintlify
 
-      - name: Mintlify install
-        run: mintlify install  # Adjust this command based on how Mintlify builds your site
-
       - name: Build the site
-        run: mintlify build  # Adjust this command based on how Mintlify builds your site
+        run: mintlify dev  # Adjust this command based on how Mintlify builds your site
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
